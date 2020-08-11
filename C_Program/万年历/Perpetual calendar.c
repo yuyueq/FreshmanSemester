@@ -12,7 +12,7 @@ int main()
     int i,j,sum=0;    
     int begin,week;  
     int days[12]={31,28,31,30,31,30,31,31,30,31,30,31};  
-printf("ÇëÊäÈëÄê·İ£º"); 
+printf("è¯·è¾“å…¥å¹´ä»½ï¼š"); 
    scanf("%d",&y);  
    for(i=1;i<y;i++)  
        sum+=year(i);  
@@ -22,11 +22,11 @@ printf("ÇëÊäÈëÄê·İ£º");
     if(year(y)==366)  
         days[1]=29;   
   
-    printf("\n%dÄêÈÕÀúÈçÏÂ£º\n\n",y);   
+    printf("\n%då¹´æ—¥å†å¦‚ä¸‹ï¼š\n\n",y);   
   
     for(i=0;i<12;i++)  
    {  
-        printf("   *************%dÔÂ****************\n",i+1);  
+        printf("   *************%dæœˆ****************\n",i+1);  
         printf("   SUN  Mon  Tue  Wed  Thu  Fri  Sat\n");  
         printf("======================================\n");  
         begin=1;  
